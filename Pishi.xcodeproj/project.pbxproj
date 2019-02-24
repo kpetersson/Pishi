@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B4CE246222315A2002011A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CE245222315A2002011A1 /* AppDelegate.swift */; };
+		1B4CE248222315A2002011A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CE247222315A2002011A1 /* ViewController.swift */; };
+		1B4CE24A222315A3002011A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B4CE249222315A3002011A1 /* Assets.xcassets */; };
+		1B4CE24D222315A3002011A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4CE24B222315A3002011A1 /* Main.storyboard */; };
+		1B4CE259222315A3002011A1 /* PishiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CE258222315A3002011A1 /* PishiTests.swift */; };
+		1B4CE264222315A3002011A1 /* PishiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CE263222315A3002011A1 /* PishiUITests.swift */; };
+		1B4CE2722223186C002011A1 /* CPUItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CE2712223186C002011A1 /* CPUItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B4CE255222315A3002011A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B4CE23A222315A2002011A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B4CE241222315A2002011A1;
+			remoteInfo = Pishi;
+		};
+		1B4CE260222315A3002011A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B4CE23A222315A2002011A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B4CE241222315A2002011A1;
+			remoteInfo = Pishi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B4CE242222315A2002011A1 /* Pishi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pishi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B4CE245222315A2002011A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B4CE247222315A2002011A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B4CE249222315A3002011A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B4CE24C222315A3002011A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B4CE24E222315A3002011A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B4CE24F222315A3002011A1 /* Pishi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pishi.entitlements; sourceTree = "<group>"; };
+		1B4CE254222315A3002011A1 /* PishiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PishiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B4CE258222315A3002011A1 /* PishiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PishiTests.swift; sourceTree = "<group>"; };
+		1B4CE25A222315A3002011A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B4CE25F222315A3002011A1 /* PishiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PishiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B4CE263222315A3002011A1 /* PishiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PishiUITests.swift; sourceTree = "<group>"; };
+		1B4CE265222315A3002011A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B4CE2712223186C002011A1 /* CPUItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPUItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B4CE23F222315A2002011A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B4CE251222315A3002011A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B4CE25C222315A3002011A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B4CE239222315A2002011A1 = {
+			isa = PBXGroup;
+			children = (
+				1B4CE244222315A2002011A1 /* Pishi */,
+				1B4CE257222315A3002011A1 /* PishiTests */,
+				1B4CE262222315A3002011A1 /* PishiUITests */,
+				1B4CE243222315A2002011A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B4CE243222315A2002011A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B4CE242222315A2002011A1 /* Pishi.app */,
+				1B4CE254222315A3002011A1 /* PishiTests.xctest */,
+				1B4CE25F222315A3002011A1 /* PishiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B4CE244222315A2002011A1 /* Pishi */ = {
+			isa = PBXGroup;
+			children = (
+				1B4CE245222315A2002011A1 /* AppDelegate.swift */,
+				1B4CE247222315A2002011A1 /* ViewController.swift */,
+				1B4CE249222315A3002011A1 /* Assets.xcassets */,
+				1B4CE24B222315A3002011A1 /* Main.storyboard */,
+				1B4CE24E222315A3002011A1 /* Info.plist */,
+				1B4CE24F222315A3002011A1 /* Pishi.entitlements */,
+				1B4CE2712223186C002011A1 /* CPUItem.swift */,
+			);
+			path = Pishi;
+			sourceTree = "<group>";
+		};
+		1B4CE257222315A3002011A1 /* PishiTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B4CE258222315A3002011A1 /* PishiTests.swift */,
+				1B4CE25A222315A3002011A1 /* Info.plist */,
+			);
+			path = PishiTests;
+			sourceTree = "<group>";
+		};
+		1B4CE262222315A3002011A1 /* PishiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B4CE263222315A3002011A1 /* PishiUITests.swift */,
+				1B4CE265222315A3002011A1 /* Info.plist */,
+			);
+			path = PishiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B4CE241222315A2002011A1 /* Pishi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B4CE268222315A3002011A1 /* Build configuration list for PBXNativeTarget "Pishi" */;
+			buildPhases = (
+				1B4CE23E222315A2002011A1 /* Sources */,
+				1B4CE23F222315A2002011A1 /* Frameworks */,
+				1B4CE240222315A2002011A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pishi;
+			productName = Pishi;
+			productReference = 1B4CE242222315A2002011A1 /* Pishi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B4CE253222315A3002011A1 /* PishiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B4CE26B222315A3002011A1 /* Build configuration list for PBXNativeTarget "PishiTests" */;
+			buildPhases = (
+				1B4CE250222315A3002011A1 /* Sources */,
+				1B4CE251222315A3002011A1 /* Frameworks */,
+				1B4CE252222315A3002011A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B4CE256222315A3002011A1 /* PBXTargetDependency */,
+			);
+			name = PishiTests;
+			productName = PishiTests;
+			productReference = 1B4CE254222315A3002011A1 /* PishiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B4CE25E222315A3002011A1 /* PishiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B4CE26E222315A3002011A1 /* Build configuration list for PBXNativeTarget "PishiUITests" */;
+			buildPhases = (
+				1B4CE25B222315A3002011A1 /* Sources */,
+				1B4CE25C222315A3002011A1 /* Frameworks */,
+				1B4CE25D222315A3002011A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B4CE261222315A3002011A1 /* PBXTargetDependency */,
+			);
+			name = PishiUITests;
+			productName = PishiUITests;
+			productReference = 1B4CE25F222315A3002011A1 /* PishiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B4CE23A222315A2002011A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Karl Petersson";
+				TargetAttributes = {
+					1B4CE241222315A2002011A1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					1B4CE253222315A3002011A1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1B4CE241222315A2002011A1;
+					};
+					1B4CE25E222315A3002011A1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1B4CE241222315A2002011A1;
+					};
+				};
+			};
+			buildConfigurationList = 1B4CE23D222315A2002011A1 /* Build configuration list for PBXProject "Pishi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B4CE239222315A2002011A1;
+			productRefGroup = 1B4CE243222315A2002011A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B4CE241222315A2002011A1 /* Pishi */,
+				1B4CE253222315A3002011A1 /* PishiTests */,
+				1B4CE25E222315A3002011A1 /* PishiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B4CE240222315A2002011A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B4CE24A222315A3002011A1 /* Assets.xcassets in Resources */,
+				1B4CE24D222315A3002011A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B4CE252222315A3002011A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B4CE25D222315A3002011A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B4CE23E222315A2002011A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B4CE248222315A2002011A1 /* ViewController.swift in Sources */,
+				1B4CE2722223186C002011A1 /* CPUItem.swift in Sources */,
+				1B4CE246222315A2002011A1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B4CE250222315A3002011A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B4CE259222315A3002011A1 /* PishiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B4CE25B222315A3002011A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B4CE264222315A3002011A1 /* PishiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B4CE256222315A3002011A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B4CE241222315A2002011A1 /* Pishi */;
+			targetProxy = 1B4CE255222315A3002011A1 /* PBXContainerItemProxy */;
+		};
+		1B4CE261222315A3002011A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B4CE241222315A2002011A1 /* Pishi */;
+			targetProxy = 1B4CE260222315A3002011A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B4CE24B222315A3002011A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B4CE24C222315A3002011A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B4CE266222315A3002011A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B4CE267222315A3002011A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1B4CE269222315A3002011A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Pishi/Pishi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3ERX52J3BS;
+				INFOPLIST_FILE = Pishi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.petersson.Pishi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		1B4CE26A222315A3002011A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Pishi/Pishi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3ERX52J3BS;
+				INFOPLIST_FILE = Pishi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.petersson.Pishi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		1B4CE26C222315A3002011A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3ERX52J3BS;
+				INFOPLIST_FILE = PishiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.petersson.PishiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pishi.app/Contents/MacOS/Pishi";
+			};
+			name = Debug;
+		};
+		1B4CE26D222315A3002011A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3ERX52J3BS;
+				INFOPLIST_FILE = PishiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.petersson.PishiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pishi.app/Contents/MacOS/Pishi";
+			};
+			name = Release;
+		};
+		1B4CE26F222315A3002011A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3ERX52J3BS;
+				INFOPLIST_FILE = PishiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.petersson.PishiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = Pishi;
+			};
+			name = Debug;
+		};
+		1B4CE270222315A3002011A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3ERX52J3BS;
+				INFOPLIST_FILE = PishiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.petersson.PishiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = Pishi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B4CE23D222315A2002011A1 /* Build configuration list for PBXProject "Pishi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B4CE266222315A3002011A1 /* Debug */,
+				1B4CE267222315A3002011A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B4CE268222315A3002011A1 /* Build configuration list for PBXNativeTarget "Pishi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B4CE269222315A3002011A1 /* Debug */,
+				1B4CE26A222315A3002011A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B4CE26B222315A3002011A1 /* Build configuration list for PBXNativeTarget "PishiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B4CE26C222315A3002011A1 /* Debug */,
+				1B4CE26D222315A3002011A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B4CE26E222315A3002011A1 /* Build configuration list for PBXNativeTarget "PishiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B4CE26F222315A3002011A1 /* Debug */,
+				1B4CE270222315A3002011A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B4CE23A222315A2002011A1 /* Project object */;
+}
